@@ -33,7 +33,7 @@ public class Solution
     	throw new IllegalArgumentException("No two sum solution");
     	
     }
-	public static void main1(String[] args)
+	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
 		Solution ans = new Solution();
