@@ -19,6 +19,10 @@ public class Solution4
 {
     public int numUniqueEmails(String[] emails)
     {
+    	if(emails.length<=0)
+    	{
+    		return 0;
+    	}
     	HashSet<String> resultString = new HashSet<String>();
     	
     	for(String str:emails)
